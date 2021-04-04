@@ -31,6 +31,24 @@ body, html {
    height: auto;
 }
   
+  .container {
+  margin: auto;
+  max-width: 800px;
+  display: flex;
+  /* up and down */
+  flex-direction: column;
+
+  /* everything should be centered */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+  
+  .flex {
+  /* align things horizontally */
+  display: flex;
+}
+  
 
       
 </style>
@@ -40,11 +58,11 @@ body, html {
 <body>
 
 <div class="bg">
-  <div class="box">
-    
+  <div class="container">
+    <div class="flex">
  
     <iframe src="https://open.spotify.com/embed/playlist/0zU4HybrxBRwsfWlLkEXEc" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>  
-      
+    </div>
   </div>
 </div>
   
