@@ -21,26 +21,35 @@ body, html {
   background-size: cover;
 }
   
-  .box {
+/*   .box {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
+  
+  .container {
+    min-height: 100vh; // height of the browser viewport
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-.box div {
+/* .box div {
   width: 100px;
   height: 100px;
-}
+} */
       
 </style>
 </head>
 <body>
 
 <div class="bg">
-  <div class="box">
+  <div class="container">
+    <div class="box">
     <iframe src="https://open.spotify.com/embed/playlist/0zU4HybrxBRwsfWlLkEXEc" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>  
+    </div>
   </div>
- </div>
+</div>
   
 
       
